@@ -8,6 +8,8 @@ public class ExtentReporter {
 static ExtentReports extentReport;
 	
 	public static ExtentReports getExtentReport() {
+
+             System.out.println("this code is updated by debu");
 		
 		String extentReportPath = System.getProperty("user.dir")+"\\reports\\extentreport.html";
 		ExtentSparkReporter reporter = new ExtentSparkReporter(extentReportPath);
